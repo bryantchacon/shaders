@@ -3,9 +3,10 @@
 1. Ambos shaders, el de reemplazo y el que se va a reemplazar deben tener el mismo RenderType
 2. Ambos deben tener propiedades en comun(la o las que se van a reemplazar entre uno y otro)
 3. Usar la funcion SetReplacementShader() en un C# script aparte
+4. El Renderig Path de la camara debe ser Forward
 */
 
-Shader "Custom/ColorReplacement"
+Shader "Custom/RenderType_Replacement"
 {
     Properties
     {
