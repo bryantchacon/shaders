@@ -1,4 +1,4 @@
-Shader "Custom/MVS"
+Shader "Custom/Multi_Variant_Shader"
 {
     Properties
     {

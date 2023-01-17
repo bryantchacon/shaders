@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MVS
+  m_Name: Multi_Variant_Shader
   m_Shader: {fileID: 4800000, guid: fbff336638dcb954e92d4677d32ff480, type: 3}
   m_ValidKeywords:
   - _USECOLOR_ON
