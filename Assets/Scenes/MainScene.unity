@@ -453,7 +453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 859077654419835654, guid: f694e6f175c4a5842bd67108ba07e0fa, type: 3}
       propertyPath: m_Name
-      value: Teletransport
+      value: Teleportation
       objectReference: {fileID: 0}
     - target: {fileID: 859077654419835654, guid: f694e6f175c4a5842bd67108ba07e0fa, type: 3}
       propertyPath: m_IsActive
@@ -880,7 +880,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2864847084348862625, guid: 92a0efe96386f36429b2c9953dab09e9, type: 3}
       propertyPath: m_Name
-      value: Special
+      value: SpecialItem
       objectReference: {fileID: 0}
     - target: {fileID: 2864847084348862625, guid: 92a0efe96386f36429b2c9953dab09e9, type: 3}
       propertyPath: m_IsActive
@@ -1050,7 +1050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767997840635480028, guid: 9f035e3341bcc744cb28a9bcdf6b20f5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f035e3341bcc744cb28a9bcdf6b20f5, type: 3}
@@ -1185,7 +1185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4449451872937592411, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_Name
-      value: Pattern(+ CGFiles)
+      value: Pattern + CGFiles
       objectReference: {fileID: 0}
     - target: {fileID: 4449451872937592411, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_IsActive
@@ -1246,7 +1246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3692443991963169218, guid: a53afb8f92e0d83499e50eb5d9d31c49, type: 3}
       propertyPath: m_Name
-      value: Banana_mesh
+      value: Banana_mesh (Toon)
       objectReference: {fileID: 0}
     - target: {fileID: 3692443991963169218, guid: a53afb8f92e0d83499e50eb5d9d31c49, type: 3}
       propertyPath: m_IsActive
@@ -1551,7 +1551,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4770875492536413654, guid: 6c979d37d9d7d454ca8bba1b00075c48, type: 3}
       propertyPath: m_Name
-      value: TextureUV
+      value: UVTexture
       objectReference: {fileID: 0}
     - target: {fileID: 4770875492536413654, guid: 6c979d37d9d7d454ca8bba1b00075c48, type: 3}
       propertyPath: m_IsActive
@@ -1717,7 +1717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7842142059808437658, guid: 68b81325107ae944d8f96840a3fa017e, type: 3}
       propertyPath: m_Name
-      value: Coin + Instancing
+      value: Coin (+ Instancing)
       objectReference: {fileID: 0}
     - target: {fileID: 7842142059808437658, guid: 68b81325107ae944d8f96840a3fa017e, type: 3}
       propertyPath: m_IsActive
@@ -1917,7 +1917,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7213561417765435490, guid: f6397dbd88ebd3f48a9c3ead61dbec8b, type: 3}
       propertyPath: m_Name
-      value: Lake_Mesh(Water)
+      value: Lake_Mesh (Water)
       objectReference: {fileID: 0}
     - target: {fileID: 7213561417765435490, guid: f6397dbd88ebd3f48a9c3ead61dbec8b, type: 3}
       propertyPath: m_IsActive

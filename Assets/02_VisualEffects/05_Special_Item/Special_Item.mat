@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Special
+  m_Name: Special_Item
   m_Shader: {fileID: 4800000, guid: 9ec72a6c5449c2a479b00c9eb41f5ad7, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:

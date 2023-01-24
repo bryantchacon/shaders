@@ -1,4 +1,4 @@
-Shader "Custom/Special"
+Shader "Custom/Special_Item"
 {
     Properties
     {

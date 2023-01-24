@@ -18,7 +18,7 @@ Shader "Custom/Multi_Variant_Shader"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            //Multi Variant Shader: #pragma multi_compile compila todas las opciones que tenga la variable se utilicen o no, por eso es multi, en cambio #pragma shader_feature solo compila la opcion que se selecciona desde el inspector
+            //#pragma multi_compile es un Multi Variant Shader que compila todas las opciones que tenga la variable se utilicen o no, por eso es multi, en cambio #pragma shader_feature solo compila la opcion que se selecciona desde el inspector
             #pragma shader_feature _USECOLOR_ON _USECOLOR_OFF
 
             #include "UnityCG.cginc"

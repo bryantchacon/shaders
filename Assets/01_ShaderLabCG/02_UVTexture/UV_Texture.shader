@@ -1,4 +1,4 @@
-Shader "Custom/TextureUV"
+Shader "Custom/UV_Texture"
 {
     Properties
     {
@@ -30,7 +30,7 @@ Shader "Custom/TextureUV"
             struct vertexInput
             {
                 fixed4 vertex : POSITION; //Semantica de la posicion de los vertices
-                fixed2 uv : TEXCOORD0; //Semantica de las coordenadas UV, tiene 0 al final porque puede haber mas de una textura asignada a un objeto (si, las UVs se consideran texturas en CG y son la primera); TEXCOORD1, TEXCOORD2, etc.
+                fixed2 uv : TEXCOORD0; //Semantica de las coordenadas UV, tiene 0 al final porque puede haber mas de una textura asignada a un objeto (si, las UVs se consideran texturas en CG y son la primera), de ahi siguen TEXCOORD1, TEXCOORD2, etc.
             };
 
             struct vertexOutput
@@ -51,7 +51,7 @@ Shader "Custom/TextureUV"
                 //_MainTex_ST.xy = Tiling en xy
                 //_MainTex_ST.zw = Offset en xy
 
-                o.uv = TRANSFORM_TEX(i.uv, _MainTex); //Optimizacion de "o.uv = (i.uv * _MainTex_ST.xy + _MainTex_ST.zw);", TRANSFORM_TEX() viene incluida UnityCG.cginc
+                o.uv = TRANSFORM_TEX(i.uv, _MainTex); //Optimizacion de "o.uv = (i.uv * _MainTex_ST.xy + _MainTex_ST.zw)", TRANSFORM_TEX() viene incluida UnityCG.cginc
 
                 return o;
             }
