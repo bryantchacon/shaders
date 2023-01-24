@@ -1050,7 +1050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767997840635480028, guid: 9f035e3341bcc744cb28a9bcdf6b20f5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f035e3341bcc744cb28a9bcdf6b20f5, type: 3}
@@ -1247,6 +1247,10 @@ PrefabInstance:
     - target: {fileID: 3692443991963169218, guid: a53afb8f92e0d83499e50eb5d9d31c49, type: 3}
       propertyPath: m_Name
       value: Banana_mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692443991963169218, guid: a53afb8f92e0d83499e50eb5d9d31c49, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4068406962999339896, guid: a53afb8f92e0d83499e50eb5d9d31c49, type: 3}
       propertyPath: m_RootOrder
