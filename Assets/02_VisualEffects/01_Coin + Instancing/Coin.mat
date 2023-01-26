@@ -78,7 +78,7 @@ Material:
     - _Parallax: 0.02
     - _Range: 2
     - _Rim: 1
-    - _Saturation: 0.7
+    - _Saturation: 0.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: -1

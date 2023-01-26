@@ -1717,7 +1717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7842142059808437658, guid: 68b81325107ae944d8f96840a3fa017e, type: 3}
       propertyPath: m_Name
-      value: Coin (+ Instancing)
+      value: Coin + Instancing
       objectReference: {fileID: 0}
     - target: {fileID: 7842142059808437658, guid: 68b81325107ae944d8f96840a3fa017e, type: 3}
       propertyPath: m_IsActive

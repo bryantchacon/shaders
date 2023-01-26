@@ -75,6 +75,5 @@ Shader "Custom/SolidColor"
             ENDCG
         }
     }
-    //06
     Fallback "Mobile/VertexLit"
 }
