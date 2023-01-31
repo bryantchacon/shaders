@@ -62,7 +62,7 @@ Shader "Custom/ZTest"
             ENDCG
         }
 
-        Pass //Pass de color, configurado con el ZTest para renderizar su efecto solo cuando este DETRAS de otros objetos
+        Pass //Pass de color, configurado con el ZTest para renderizar su efecto solo cuando este DETRAS de otros objetos QUE TENGAN UN SHADER CON Cull Back
         {
             ZTest Greater
 

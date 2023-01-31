@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Matrices
+  m_Name: Matrix
   m_Shader: {fileID: 4800000, guid: 7e96b0ac94366ed449d507c1a04eeed0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

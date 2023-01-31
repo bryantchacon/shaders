@@ -56,9 +56,9 @@ Shader "Custom/UV_Texture"
                 return o;
             }
 
-            fixed4 fragmentShader(vertexOutput o) : SV_TARGET
+            fixed4 fragmentShader(vertexOutput i) : SV_TARGET
             {
-                fixed4 col = tex2D(_MainTex, o.uv) * _Color;
+                fixed4 col = tex2D(_MainTex, i.uv) * _Color;
                 return col;
             }
             ENDCG

@@ -1,4 +1,4 @@
-Shader "Custom/Normal"
+Shader "Custom/NormalMovement"
 {
     Properties
     {

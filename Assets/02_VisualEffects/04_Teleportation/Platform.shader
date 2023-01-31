@@ -1,4 +1,4 @@
-Shader "Unlit/Platform"
+Shader "Custom/Platform"
 {
     Properties
     {

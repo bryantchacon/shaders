@@ -17,7 +17,7 @@ Shader "Custom/ZWrite"
         /*
         • Se usan transparencias, incluido Stencil (carpeta 04_Stencil del proyecto MasterShader), al configurar el ColorMask en 0
         • Se usan las opciones de blending
-        • Se quiere evitar errores graficos entre objetos semi transparentes (p. 88), sin embargo, tambien sera necesario (ademas de desactivar el ZWrite y poner el RenderType y Queue en Transparent), ponerlos en diferentes layers sumando o restando uno al valor del Queue, por ejemplo: 3000+1, 3000-1 y 3000 (si son 3 que uno quede con el valor por default)
+        • Se quiere evitar errores graficos entre objetos semi transparentes (p. 88), sin embargo, tambien sera necesario (ademas de desactivar el ZWrite y poner el RenderType y Queue en Transparent), ponerlos en diferentes layers sumando o restando uno al valor del Queue, por ejemplo: 3000-1, 3000 y 3000+1 (si son 3 que el de en medio quede con el valor por default y si a los de atras se les suma en lugar de restar entonces se renderizaran primero en frente de los que tengan menor numero, aunque esten detras de ellos, y viceversa si a los de enfrente se les resta)
         */
 
         Pass
