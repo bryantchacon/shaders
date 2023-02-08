@@ -2,56 +2,58 @@
 
 More shaders:
 
-> Solid Color
+- Solid Color
 
-> UV Texrure
+- UV Texrure
 
-> Cull
+- Cull
 
-> ZWrite
+- ZWrite
 
-> ZTest
+- ZTest
 
-> Queue
+- Queue
 
-> RenderType Replacement
+- RenderType Replacement
 
-> Blending
+- Blending
 
-> Hologram
+- Hologram
 
-> Pattern
+- Pattern
 
-> Vertex Flag
+- Vertex Flag
 
-> Normal
+- Normal
 
-> Fog
+- Fog
 
-> Multi Variant Shader
+- Multi Variant Shader
 
-> Instancing
+- Instancing
 
-> Blur
+- Blur
 
-> Matrices
+- Matrices
 
-> Coin (+ Instancing)
+- Coin (+ Instancing)
 
-> Magma
+- Magma
 
-> Outline
+- Outline
 
-> Teleportation
+- Teleportation
 
-> Special Item
+- Special Item
 
-> Water
+- Water
 
-> Coin in Shader Graph
+- Coin in Shader Graph
 
-> Node Graph
+- Node Graph
 
-> Potion
+- Potion
 
-> Toon
+- Toon
+
+> Unity 2021.3.4f1
