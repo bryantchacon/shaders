@@ -5,6 +5,7 @@ Shader "Custom/Special_Item"
         _MainTex ("Main Texture", 2D) = "white" {}
         _PattTex ("Pattern Texture", 2D) = "white" {}
         _RampTex ("Ramp Texture", 2D) = "white" {}
+        _Speed ("Rotation Speed", Range(0, 3)) = 1
         [Header(RAMP PROPERTIES)]
         [Space(10)]
         _RampSpeed ("Speed", Range(1, 10)) = 10
@@ -27,6 +28,7 @@ Shader "Custom/Special_Item"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "Assets/CGFiles/TotalRotationCG.cginc"
 
             struct appdata
             {
@@ -46,11 +48,14 @@ Shader "Custom/Special_Item"
             float4 _MainTex_ST;
             float _RampSpeed;
             float _RampSaturation;
+            float _Speed;
 
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
+                float3 rotVertex = TotalRotation(v.vertex, _Speed); //Uso de la funcion TotalRotation() antes de UnityObjectToClipPos()
+                o.vertex = UnityObjectToClipPos(rotVertex);
+
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
             }
@@ -83,6 +88,7 @@ Shader "Custom/Special_Item"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "Assets/CGFiles/TotalRotationCG.cginc"
 
             struct appdata
             {
@@ -100,11 +106,13 @@ Shader "Custom/Special_Item"
 
             float4 _RimColor;
             float _RimEffect;
+            float _Speed;
 
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
+                float3 rotVertex = TotalRotation(v.vertex, _Speed); //Uso de la funcion TotalRotation() antes de UnityObjectToClipPos()
+                o.vertex = UnityObjectToClipPos(rotVertex);
 
                 o.normal = normalize(mul(unity_ObjectToWorld, v.normal)); //Calcula las normales en World-Space
                 o.uv = normalize(_WorldSpaceCameraPos - mul(unity_ObjectToWorld, v.vertex.xyz)); //Calcula las UVs en World-Space desde la vista de la camara tambien en World-Space para que el efecto rim se vea bien mientras se mueva la camara

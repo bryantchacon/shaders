@@ -3,16 +3,16 @@ Shader "Custom/Pattern"
     Properties
     {
         _Color ("Color", Color) = (1,1,1,1)
-        _SquareSize ("Square Size", Range(0, 5)) = 1
+        _SquareSize ("Size", Range(0, 5)) = 1
         _DiagonalOffset ("Diagonal Offset", Range(0, 1)) = 0
         _Zoom ("Zoom", Range(1, 5)) = 2
-        [Toggle]_Invert ("Invert", Float) = 0
         _DiagonalPivotPosition ("Diagonal Pivot Position", Range(0, 1)) = 0.5
+        [Toggle]_Invert ("Invert", Float) = 0
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
-        Blend SrcAlpha OneMinusSrcAlpha //Activa el alpha en las partes oscuras del patron
+        Blend SrcAlpha OneMinusSrcAlpha //Activa el canal alpha
 
         Pass
         {
@@ -23,7 +23,7 @@ Shader "Custom/Pattern"
             #include "UnityCG.cginc"
 
             //Llama el archivo RotateCG.cginc para hacer uso de su funcion Rotate
-            #include "Assets/01_ShaderLabCG/CGFiles/RotateCG.cginc"
+            #include "Assets/CGFiles/RotateCG.cginc"
 
             //Pragma del toggle _Invert
             #pragma shader_feature _INVERT_ON

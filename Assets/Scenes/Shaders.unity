@@ -1185,7 +1185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4449451872937592411, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_Name
-      value: Pattern + CGFiles
+      value: Pattern
       objectReference: {fileID: 0}
     - target: {fileID: 4449451872937592411, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_IsActive
@@ -1201,7 +1201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4449451872937592415, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4449451872937592415, guid: 5f16fe10554ac7047843b13cd6c7f955, type: 3}
       propertyPath: m_LocalPosition.z

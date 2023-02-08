@@ -77,7 +77,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SquareQuantity: 2.11
-    - _SquareSize: 1.09
+    - _SquareSize: 1
     - _SquaresQuantity: 2
     - _SrcBlend: 1
     - _TileQuantity: 2

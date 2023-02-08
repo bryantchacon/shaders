@@ -13,7 +13,6 @@ Shader "Custom/Queue"
             "Queue"="Transparent" //Valores en la p. 68, solo funciona (el objeto que tenga este shader se redereizara sobre los demas) si los que esten frente a el tienen el ZWrite en Off
             "IgnoreProjector"="False" //Valor por default, su funcion es activar/desactivar que la camara proyecte algo sobre los objetos, False proyectara, True no proyectara
         }
-
         ZWrite Off
 
         Pass
