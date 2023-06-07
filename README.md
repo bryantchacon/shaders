@@ -1,6 +1,6 @@
 # Shaders
 
-More shaders:
+Shaders list:
 
 - Solid Color
 
