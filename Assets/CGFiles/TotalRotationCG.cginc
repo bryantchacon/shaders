@@ -1,6 +1,10 @@
-#ifndef TotalRotationCG
-#define TotalRotationCG
+//ESTE TIPO DE ARCHIVO ES PARA PODER LLAMAR DESDE CUALQUIER SHADER CUALQUIER FUNCION QUE ESTE CONTENGA, O SEA ES UNA LIBRERIA
 
+//if para definir un archivo .cginc, dentro de este iran todas las funciones
+#ifndef TotalRotationCG //Si TotalRotationCG (este archivo), no esta definido...
+#define TotalRotationCG //... definelo
+
+//Funcion para rotar 1080°
 float3 TotalRotation(float3 vertex, float speed)
 {
     //Variables de rotacion usando cos(graficamente la curva inica en 1) y sin(graficamente la curva inica en 0). _Time es una variable interna y lo que hace es agregar tiempo a la operacion, es similar a Time.deltaTime en C# y al multiplicarlo por _Speed se puede modificar la velocidad desde el inspector
